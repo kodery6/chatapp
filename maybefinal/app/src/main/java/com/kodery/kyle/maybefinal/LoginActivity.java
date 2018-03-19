@@ -35,13 +35,7 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                //login();
-                final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this, R.style.AppTheme_Dark_Dialog);
-                progressDialog.setIndeterminate(true);
-                progressDialog.setMessage("Authenticating..");
-                progressDialog.show();
-                Intent intent_main = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent_main);
+                login();
             }
         });
 
@@ -76,7 +70,7 @@ public class LoginActivity extends AppCompatActivity {
 
         // TODO: Implement authentication logic here.
 
-        /*new android.os.Handler().postDelayed(
+        new android.os.Handler().postDelayed(
                 new Runnable() {
                     public void run() {
                         // On complete call either onLoginSuccess or onLoginFailed
@@ -84,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
                         //onLoginFailed();
                         progressDialog.dismiss();
                     }
-                }, 3000);*/
+                }, 3000);
     }
 
 
