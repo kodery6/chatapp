@@ -8,15 +8,21 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".LoginActivity" >
+            android:name=".LoginActivity" android:theme="@style/AppTheme.Dark">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- <activity android:name="com.kodery.kyle.maybefinal.LoginActivity" android:theme="@style/AppTheme.Dark" /> -->
-        <activity android:name="com.kodery.kyle.maybefinal.SignupActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name=".SignupActivity" android:theme="@style/AppTheme.Dark" />
+        <activity android:name=".AndroidMaterialSpinner" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".homepage" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".tabtab" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".CustomizedListView" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".CustomizedListViewnew" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar"/>
+
     </application>
 
 </manifest>

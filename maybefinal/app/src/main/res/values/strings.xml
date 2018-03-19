@@ -9,4 +9,6 @@
     <string name="err_msg_name">Enter your full name</string>
     <string name="err_msg_email">Enter valid email address</string>
     <string name="err_msg_password">Enter the password</string>
+    <string name="empname">Name_of_the_person</string>
+    <string name="txtcount">msg_count</string>
 </resources>
