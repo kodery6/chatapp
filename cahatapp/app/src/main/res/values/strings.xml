@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">cahatapp</string>
-    <string name="action_settings">Settings</string>
-    <string name="empname">Name_of_the_person</string>
-    <string name="txtcount">msg_count</string>
-</resources>
